@@ -1,0 +1,117 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #3E151D;
+}
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+header .logo{
+    margin-left: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+nav{
+    margin-right:3rem ;
+    display: flex;
+    gap: 2rem;
+}
+nav a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+nav a:hover{
+    color: #ffbb00;
+}
+main{
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.left-section {
+    padding: 2rem ;
+    width: 50%;
+}
+.heading{
+    padding: 1rem;
+    width: 490px;
+}
+.heading h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: #ffbb00;
+}
+.heading h2{
+    font-size: 2rem;
+    color: white;
+}
+.para p{
+    padding: 1rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 460px;
+    line-height: 1.7;
+    font-size: 13px;
+}
+.btns{
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+.btns button{
+    padding: 9px 16px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.btns #btn-1{
+    background-color: #ffbb00;
+    border:2px solid  #ffbb00 ;
+}
+.btns #btn-1:hover{
+     background-color:transparent;
+    border: 2px solid white;
+    color: white;
+}
+.btns #btn-2{
+    background-color:transparent;
+    border: 2px solid white;
+    color: white;
+}
+.btns #btn-2:hover{
+    color: black;
+    background-color: #ffbb00;
+      border:2px solid  #ffbb00 ;
+}
+
+.right-section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.right-section img{
+    width: 600px;
+}
